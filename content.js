@@ -21,18 +21,18 @@ setInterval(() => {
       newDiv.innerHTML = `<div
      style="display: flex; flex-direction: row;"
     class="custom-toolbox">
-    <div style="cursor: pointer; margin-left: 10px;" class="set-level" data-level="major">❗️</div>
-    <div style="cursor: pointer; margin-left: 10px;" class="set-level" data-level="minor">🟡</div>
+    <div style="cursor: pointer; margin-left: 10px;" class="set-level" data-level="issue">❗️</div>
+    <div style="cursor: pointer; margin-left: 10px;" class="set-level" data-level="chore">🟡</div>
     <div style="cursor: pointer; margin-left: 10px;" class="set-level" data-level="question">❓</div>
     <div style="cursor: pointer; margin-left: 10px;" class="set-level" data-level="suggestion">🛠</div>
-    <div style="cursor: pointer; margin-left: 10px;" class="set-level" data-level="offtop">💬</div>
+    <div style="cursor: pointer; margin-left: 10px;" class="set-level" data-level="thought">💬</div>
     </div>`;
       Array.from(newDiv.querySelectorAll(".set-level")).forEach((node) => {
         node.addEventListener("click", (e) => {
           const title = node.attributes["data-level"].value;
           const emoji = node.textContent;
 
-          const message = `### ${emoji} ${title.toUpperCase()} ${emoji}\n`;
+          const message = `${emoji}**${title}**`;
 
           const container = findParentBy(node, (node) =>
             node.classList.contains("js-vue-markdown-field")
