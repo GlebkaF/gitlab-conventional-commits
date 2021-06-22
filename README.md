@@ -2,7 +2,7 @@
 
 # Gitlab Conventional Comments
 
-Adds hotkeys for commonly used Conventional Comments types to the comment box in the gitlab
+Adds shortcuts for commonly used Conventional Comments types to the comment box in the gitlab
 https://conventionalcomments.org/
 
 Compatible with Firefox and Chrome
