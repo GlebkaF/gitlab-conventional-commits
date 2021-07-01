@@ -3,11 +3,11 @@
 
   "name": "GitlabCodeReviewHelper",
   "description": "GitlabCodeReviewHelper",
-  "version": "1.0",
+  "version": "1.1",
 
   "content_scripts": [
     {
-      "matches": ["https://gitlab.example.com/*"],
+      "matches": ["https://gitlab.skyeng.link/*"],
       "js": ["content.js"]
     }
   ],
