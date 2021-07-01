@@ -16,7 +16,7 @@ setInterval(() => {
       commentHeader &&
       !commentHeader.parentElement.querySelector(".custom-toolbox")
     ) {
-      const newDiv = documentfi.createElement("div");
+      const newDiv = document.createElement("div");
 
       newDiv.innerHTML = `<div
      style="display: flex; flex-direction: row;"
