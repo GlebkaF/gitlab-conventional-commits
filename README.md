@@ -23,6 +23,8 @@ Compatible with Firefox and Chrome
 
 ### Firefox
 
+[install link](https://addons.mozilla.org/firefox/downloads/file/3804207/gitlabcodereviewhelper-1.3-fx.xpi)
+
 - Open the Extension Management page by navigating to about:addons
 - Click "Debug addons" in the dropdown menu
 - Click "Load Temporary Add-on..."
